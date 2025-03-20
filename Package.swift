@@ -9,21 +9,14 @@ let package = Package(
     products: [
         .library(
             name: "OpusBinding",
-            type: .static,
             targets: ["OpusBinding"]
         )
     ],
     targets: [
-        .target(
+        .binaryTarget(
             name: "OpusBinding",
-            dependencies: [],
-            path: ".",
-            publicHeadersPath: "PublicHeaders",
-            cSettings: [
-                .headerSearchPath("PublicHeaders"),
-                .headerSearchPath("PublicHeaders/OpusBinding"),
-                .headerSearchPath("Sources"),
-                .unsafeFlags(["-I../../../../core-xprojects/libopus/build/libopus/include"])
-            ]),
+            url: "https://github.com/SerhiiShovkoplias/OpusBinding/releases/download/1.0.0/OpusBinding.xcframework.zip",
+            checksum: "923d979730f7bb5a5a2eaa491a57beb802fda3562fcd3a6e7c1c421742bbc8ac"
+        )
     ]
 )
