@@ -1,0 +1,71 @@
+# --- macOS system files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Xcode workspace and project files ---
+xcuserdata/
+xcshareddata/
+*.xcscmblueprint
+*.xccheckout
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# --- Xcode Derived Data ---
+DerivedData/
+.idea/
+*.xcworkspace/
+*.xcresult/
+
+# --- Swift Package Manager (SPM) ---
+.swiftpm/
+Package.resolved
+.build/
+
+# --- Carthage dependencies ---
+Carthage/Build/
+
+# --- CocoaPods dependencies ---
+Pods/
+Podfile.lock
+
+# --- Fastlane ---
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/report.xml
+
+# --- Archives ---
+*.xcarchive/
+
+# --- Logs and temporary files ---
+*.log
+*.swp
+*.swo
+*.swn
+*.lock
+
+# --- Environment files ---
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# --- Ignore temporary Xcode files ---
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xcassets/.DS_Store
+
+# --- Ignore Playgrounds data ---
+timeline.xctimeline
+playground.xcworkspace
+
+# --- Ignore generated plist files ---
+*.plist
+!Info.plist
+
+# --- Ignore Build Folders ---
+build/
