@@ -20,9 +20,7 @@ let package = Package(
     targets: [
         .target(
             name: "OpusBinding",
-            dependencies: [
-                .product(name: "libopus", package: "libopus")
-            ],
+            dependencies: ["libopus"],
             path: "Sources/OpusBinding",
             publicHeadersPath: "include",
             cSettings: [
