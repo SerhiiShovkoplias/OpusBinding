@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SerhiiShovkoplias/libopus.git",
       "state" : {
-        "revision" : "5785508ea6ba5eae69068850e10264ec33eb312b",
-        "version" : "1.0.4"
+        "revision" : "af6e2f9e14b0957f287cf2b8c5fa4cc15fba2c23",
+        "version" : "1.0.5"
       }
     }
   ],
